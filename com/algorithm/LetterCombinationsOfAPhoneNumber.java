@@ -5,8 +5,6 @@
  * [17] Letter Combinations of a Phone Number
  */
 
-package leetcode.editor.en;
-
 import java.util.*;
 
 public class LetterCombinationsOfAPhoneNumber {
