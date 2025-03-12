@@ -35,11 +35,12 @@ public class LinkedListQueue<T>{
     }
 
     public boolean isEmpty(){
-        return (queue.frontNode == queue.rearNode)? true : false;
+        return (queueSize == 0)? true : false;
     }
 
     public void push(T data){
-        Node<T> node = new Node<>(data, null, queue.rearNode);
+        Node<T> node = new Node<>(data, queue.rearNode, null);
+        queue.rearNode.next = node;
         queue.rearNode = node;
         queueSize++;
     }
@@ -48,10 +49,14 @@ public class LinkedListQueue<T>{
         if(isEmpty()){
             return (T)null;
         }
-        T data = queue.frontNode.data;
-        Node<T> tempNode = queue.frontNode.pre;
-        queue.frontNode = null;
-        queue.frontNode = tempNode;
+        Node<T> node = queue.frontNode.next;
+        T data = node.data;
+        queue.frontNode.next = node.next;
+        if(node.next != null){
+            node.next.pre = queue.frontNode;
+        }else{
+            queue.rearNode = queue.frontNode;
+        }
         queueSize--;
         return data;
     }
@@ -60,11 +65,11 @@ public class LinkedListQueue<T>{
         if(isEmpty()){
             return;
         }
-        Node<T> node = queue.rearNode;
-        while(node.next.next != null){
+        Node<T> node = queue.frontNode.next;
+        while(node != null){
             System.out.print(node.data + " ");
             node = node.next;
         }
-        System.out.println(node.data);
+        System.out.println();
     }
 }

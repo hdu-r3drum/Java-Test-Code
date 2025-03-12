@@ -5,8 +5,8 @@ public class LinkedListQueueTest {
         LinkedListQueue<String> queue = new LinkedListQueue<>();
         queue.push("hello");
         queue.push("Java");
-        queue.push("world");
-        queue.push("!");
+        // queue.push("world");
+        // queue.push("!");
 
         queue.printQueue();
 
