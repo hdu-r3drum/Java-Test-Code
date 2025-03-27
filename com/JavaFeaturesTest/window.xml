@@ -1,8 +1,0 @@
-<xml>
-  <window title="Hello Reflection">
-    <location x="100" y="100"/>
-    <size width="300" height="300"/>
-    <background-color>green</background-color>
-  </window>
-</xml>
-
