@@ -32,6 +32,9 @@ public class InnerClassTest {
 }
 
 class Person{
+
+    Person(int par, String zhangsan) {
+    }
     private String name = null;
 
     public String getName(){
