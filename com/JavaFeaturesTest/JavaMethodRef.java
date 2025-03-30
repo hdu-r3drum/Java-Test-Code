@@ -1,6 +1,7 @@
 package com.JavaFeaturesTest;
 
-import com.Interfaces.MyInterface;
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class JavaMethodRef {
 
@@ -14,7 +15,16 @@ public class JavaMethodRef {
         });
         javaMethodRef.Test(new MyClass()::doSomething);
         javaMethodRef.Test(JavaMethodRef::RefMethod);
-        
+
+        ArrayList<Integer> list = new ArrayList<>();
+        Collections.addAll(list, 1, 2, 3, 4 ,5, 6, 7, 8, 9, 10);
+
+        Integer[] arr2 = list.stream()
+            .filter(i -> i % 2 == 0)
+            .toArray(Integer[]::new);
+        for (Integer i : arr2) {
+            System.out.println(i);
+        }
     }
 
     private void Test(com.Interfaces.MyInterface myInterface) {
