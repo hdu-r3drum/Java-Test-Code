@@ -1,8 +1,17 @@
 package com.classes;
 
-public class Person {
+import java.io.Serializable;
+
+public class Person implements Serializable{
+    private static final long serialVersionUID = 1L;
     private int age;
     private String name;
+
+    public Person(){
+        this.age = 0;
+        this.name = null;
+    }
+
     public Person(int age, String name) {
         this.age = age;
         this.name = name;

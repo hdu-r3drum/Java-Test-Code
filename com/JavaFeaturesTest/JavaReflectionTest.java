@@ -11,7 +11,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
-public class ReflectionTest {
+public class JavaReflectionTest {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException,
     InstantiationException, IllegalAccessException, InvocationTargetException, NoSuchFieldException{
         // JFrame jframe = new JFrame("Hello, Reflection!");

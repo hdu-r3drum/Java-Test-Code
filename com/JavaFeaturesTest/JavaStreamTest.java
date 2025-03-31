@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-import java.util.function.Consumer;
 import java.util.stream.Stream;
 
 public class JavaStreamTest {
@@ -16,13 +15,14 @@ public class JavaStreamTest {
         list.add("李四");
         list.add("王五");
         list.add("赵六");
-        Stream<String> stream1 = list.stream();
-        stream1.forEach(new Consumer<String>(){
-            @Override
-            public void accept(String s) {
-                System.out.println(s);
-            }
-        });
+        // Stream<String> stream1 = list.stream();
+        // stream1.forEach(new Consumer<String>(){
+        //     @Override
+        //     public void accept(String s) {
+        //         System.out.println(s);
+        //     }
+        // });
+        list.stream().forEach(s -> System.out.println(s));
         // Stream<String> stream2 = list.stream();
         // stream2.forEach(s-> System.out.println(s));
 
