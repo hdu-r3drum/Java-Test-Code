@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest;
+package com.JavaFeaturesTest.Stream;
 
 import java.io.File;
 import java.util.zip.ZipEntry;

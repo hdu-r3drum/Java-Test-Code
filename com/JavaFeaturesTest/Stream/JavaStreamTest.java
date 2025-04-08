@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest;
+package com.JavaFeaturesTest.Stream;
 
 import java.util.ArrayList;
 import java.util.Arrays;

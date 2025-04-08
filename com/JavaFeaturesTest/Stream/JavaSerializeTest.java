@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest;
+package com.JavaFeaturesTest.Stream;
 
 import com.classes.Student;
 import java.io.FileInputStream;

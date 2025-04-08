@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest;
+package com.JavaFeaturesTest.Stream;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -6,9 +6,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
-import com.classes.Person;
 import java.util.stream.Stream;
-import javax.xml.stream.util.StreamReaderDelegate;
 
 public class JavaStreamPractise {
     public static void main(String[] args) {
@@ -16,10 +14,10 @@ public class JavaStreamPractise {
         solution1.solution();
 
         // 2
-        solution2.solution();
+        // solution2.solution();
 
         // 3
-        solution3.solution();
+        // solution3.solution();
     }
 
     private static class Actress extends com.classes.Person {
@@ -33,7 +31,7 @@ public class JavaStreamPractise {
             super(age, name);
         }
     }
-    static class solution1{
+    private static class solution1{
         private static void solution(){
             Set<Integer> set = new HashSet<>();
             for(int i = 1; i <= 100; i++) {
@@ -47,7 +45,7 @@ public class JavaStreamPractise {
         }
     }
 
-    static class solution2{
+    private static class solution2{
         private static void solution(){
             List<String> ls2 = new ArrayList<>();
             ls2.add("zhangsan,23");
@@ -75,7 +73,7 @@ public class JavaStreamPractise {
     
     }
     
-    static class solution3{
+    private static class solution3{
         private static void solution(){
             List<Actor> ls1 = new ArrayList<>();
             ls1.add(new Actor(23, "张国荣"));
