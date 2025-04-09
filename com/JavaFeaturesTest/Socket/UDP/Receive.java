@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest.Socket.UDP;
+package com.javaFeaturesTest.Socket.UDP;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;

@@ -1,3 +1,4 @@
+package com.algorithm;
 /*
  * @lc app=leetcode id=18 lang=java
  * @lcpr version=30100

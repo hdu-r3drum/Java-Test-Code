@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest.Socket.FileTransfer;
+package com.javaFeaturesTest.Socket.FileTransfer;
 
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;

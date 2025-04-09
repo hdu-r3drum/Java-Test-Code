@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest.Socket.FileTransferMutiThread;
+package com.javaFeaturesTest.Socket.FileTransferMutiThread;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;

@@ -1,4 +1,4 @@
-package com.SimpleProject.SimpleRandomNamed;
+package com.simpleProject.SimpleRandomNamed;
 
 import java.io.File;
 import java.io.FileInputStream;

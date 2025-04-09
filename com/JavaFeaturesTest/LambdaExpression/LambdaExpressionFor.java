@@ -1,3 +1,4 @@
+package com.javaFeaturesTest.LambdaExpression;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.function.Consumer;

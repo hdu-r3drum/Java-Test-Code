@@ -1,3 +1,4 @@
+package com.javaFeaturesTest;
 public class ExtendsTest {
     public static void main(String[] args) {
         Person p = new Student();

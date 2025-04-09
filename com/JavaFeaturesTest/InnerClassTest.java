@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest;
+package com.javaFeaturesTest;
 
 public class InnerClassTest {
     // public static void main(String[] args) {

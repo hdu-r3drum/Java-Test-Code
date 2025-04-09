@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest.MultiThread.ThreadPools;
+package com.javaFeaturesTest.MultiThread.ThreadPools;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

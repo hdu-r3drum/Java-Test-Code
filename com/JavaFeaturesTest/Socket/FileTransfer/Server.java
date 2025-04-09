@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest.Socket.FileTransfer;
+package com.javaFeaturesTest.Socket.FileTransfer;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

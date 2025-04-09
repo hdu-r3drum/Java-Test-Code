@@ -1,3 +1,4 @@
+package com.javaFeaturesTest;
 public class StringAppendTest {
     public static void main(String[] args) {
         String s1 = "abc";

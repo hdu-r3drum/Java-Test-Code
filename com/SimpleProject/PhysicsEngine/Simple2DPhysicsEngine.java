@@ -1,4 +1,4 @@
-package com.SimpleProject.PhysicsEngine;
+package com.simpleProject.PhysicsEngine;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;

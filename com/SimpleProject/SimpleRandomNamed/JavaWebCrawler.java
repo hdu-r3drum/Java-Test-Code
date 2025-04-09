@@ -1,4 +1,4 @@
-package com.SimpleProject.SimpleRandomNamed;
+package com.simpleProject.SimpleRandomNamed;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

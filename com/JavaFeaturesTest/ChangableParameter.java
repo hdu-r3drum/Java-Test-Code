@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest;
+package com.javaFeaturesTest;
 
 public class ChangableParameter {
     public static void main(String[] args) {

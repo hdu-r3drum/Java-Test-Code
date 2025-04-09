@@ -1,4 +1,4 @@
-package com.SimpleProject.Simple2DPhysicsEngine;
+package com.simpleProject.Simple2DPhysicsEngine;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;

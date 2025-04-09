@@ -1,3 +1,4 @@
+package com.javaFeaturesTest;
 public class IntegerTest {
     public static void main(String[] args) {
         String s1 = Integer.toBinaryString(99);

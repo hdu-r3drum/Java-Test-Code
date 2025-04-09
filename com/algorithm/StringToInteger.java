@@ -1,3 +1,4 @@
+package com.algorithm;
 import java.util.Scanner;
 
 public class StringToInteger{

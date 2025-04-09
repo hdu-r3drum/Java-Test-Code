@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest.MultiThread;
+package com.javaFeaturesTest.MultiThread;
 
 public class RaceCondition {
     static int count = 0;

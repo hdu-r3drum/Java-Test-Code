@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest.MultiThread.ConsumerAndProducer;
+package com.javaFeaturesTest.MultiThread.ConsumerAndProducer;
 
 public class Buffer {
 

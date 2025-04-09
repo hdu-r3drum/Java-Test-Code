@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest.MultiThread;
+package com.javaFeaturesTest.MultiThread;
 
 public class ThreadJoinMethod {
     public static void main(String[] args) throws Exception{

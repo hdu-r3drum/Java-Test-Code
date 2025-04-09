@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest.Stream;
+package com.javaFeaturesTest.Stream;
 
 import java.util.ArrayList;
 import java.util.HashSet;

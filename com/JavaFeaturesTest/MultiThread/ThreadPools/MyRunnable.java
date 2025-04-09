@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest.MultiThread.ThreadPools;
+package com.javaFeaturesTest.MultiThread.ThreadPools;
 
 public class MyRunnable implements Runnable{
 

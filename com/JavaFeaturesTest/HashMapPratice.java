@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest;
+package com.javaFeaturesTest;
 
 import java.util.HashMap;
 import java.util.Set;

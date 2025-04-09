@@ -1,4 +1,4 @@
-package com.SimpleProject.RedEnvelop;
+package com.simpleProject.RedEnvelop;
 
 import java.text.NumberFormat;
 import java.util.ArrayList;

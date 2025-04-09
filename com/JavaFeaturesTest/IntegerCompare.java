@@ -1,3 +1,4 @@
+package com.javaFeaturesTest;
 class IntegerCompare {
     public static void main(String[] args) {
         Integer i1 = 1000;

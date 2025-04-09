@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest;
+package com.javaFeaturesTest;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,7 +6,7 @@ import java.util.Collections;
 public class JavaMethodRef {
 
     public static void main(String[] args) {
-        com.JavaFeaturesTest.JavaMethodRef javaMethodRef = new com.JavaFeaturesTest.JavaMethodRef();
+        com.javaFeaturesTest.JavaMethodRef javaMethodRef = new com.javaFeaturesTest.JavaMethodRef();
         javaMethodRef.Test(new com.Interfaces.MyInterface() {
             @Override
             public void doSomething() {

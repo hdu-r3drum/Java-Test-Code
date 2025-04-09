@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest.Stream;
+package com.javaFeaturesTest.Stream;
 
 import java.io.BufferedReader;
 import java.io.File;

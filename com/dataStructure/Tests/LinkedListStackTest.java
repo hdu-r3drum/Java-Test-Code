@@ -1,3 +1,4 @@
+package com.dataStructure.Tests;
 import com.dataStructure.Stack.*;
 
 public class LinkedListStackTest {

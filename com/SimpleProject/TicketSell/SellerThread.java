@@ -1,4 +1,4 @@
-package com.SimpleProject.TicketSell;
+package com.simpleProject.TicketSell;
 
 public class SellerThread extends Thread {
 

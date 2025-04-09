@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest.MultiThread;
+package com.javaFeaturesTest.MultiThread;
 
 import com.classes.Singleton;
 

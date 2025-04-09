@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest;
+package com.javaFeaturesTest;
 
 import java.io.File;
 import org.apache.commons.io.FileUtils;

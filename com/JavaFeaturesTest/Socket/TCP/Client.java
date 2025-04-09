@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest.Socket.TCP;
+package com.javaFeaturesTest.Socket.TCP;
 
 import java.io.IOException;
 import java.io.InputStream;

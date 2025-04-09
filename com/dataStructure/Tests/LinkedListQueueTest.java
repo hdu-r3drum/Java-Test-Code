@@ -1,3 +1,4 @@
+package com.dataStructure.Tests;
 import com.dataStructure.Queue.ArrayListQueue;
 import com.dataStructure.Queue.LinkedListQueue;
 

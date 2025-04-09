@@ -1,4 +1,4 @@
-package com.JavaFeaturesTest.MultiThread.ConsumerAndProducer;
+package com.javaFeaturesTest.MultiThread.ConsumerAndProducer;
 
 public class ConsumerAndProducer {
     public static void main(String[] args) {
