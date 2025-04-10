@@ -7,6 +7,10 @@ public class MyClass {
     public int age;
 
     private boolean flag;
+
+    private void foo(){
+        System.out.println("foo is invoked!");
+    }
  
     public MyClass(String name, int age) {
         this.name = name;
